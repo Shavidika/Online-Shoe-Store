@@ -1,0 +1,141 @@
+.header {
+  align-items: center;
+  top: 12px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.header .Header {
+  color: #000000;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  left: 10px;
+  position: relative;
+  width: 342px;
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.header .Header:hover {
+  text-decoration: none;
+}
+
+.header .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.header .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.header .text-wrapper-2 {
+  color: #000000;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.header .img {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.header .frame-2 {
+  height: 20px;
+  position: relative;
+  width: 92px;
+}
+
+.header .text-wrapper-3 {
+  color: #000000;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+}
+
+.header .searchBox {
+  align-items: flex-start;
+  background-color: #efefef;
+  border-radius: 62px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 12px;
+  overflow: hidden;
+  padding: 5px 16px;
+  position: relative;
+}
+
+.header .frame-5 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.header .text-wrapper-4 {
+  color: #00000066;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.header .frame-6 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.header .CartButton {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 20px;
+}
+
+.cartIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.userIcon {
+  height: 20px;
+  width: 20px;
+  
+}
+
+.searchIcon {
+  height: 25px;
+  width: 25px;
+}

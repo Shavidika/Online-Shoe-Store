@@ -1,0 +1,116 @@
+body{
+    background-color: #ffffff;
+    margin-top:0px;
+}
+.card {
+    margin-bottom: 90px;
+    margin-top:40px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+.table-product td{
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+
+.img-responsive{
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.img{
+    border-radius: 40px;
+    border-width: 2px;
+    border-color: black;
+    height: 503px;
+    width: 500px;
+}   
+
+.ProductPath{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Product-Name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Product-SUB-Name{
+    font-size: 25px;
+    font-weight: MEDIUM;
+}
+
+.Price{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.form-control{
+    width: 80px;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.btn{
+    font-family: raleway;
+    font-weight: 300;
+    font-size: 18px;    
+}
+
+.fa-shopping-cart{
+    margin-right: 8px;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.Button.btn{
+    border-radius: 80px;
+    font-size:22px ;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    min-width: 40px;
+    font-weight: bold;
+    
+  }
+
+  .count{
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form-group{
+    display: flex;
+    flex-direction: row;
+  }

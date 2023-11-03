@@ -1,0 +1,46 @@
+/* DeleteItem.css */
+
+.delete-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 100px 0;
+  }
+  
+  .delete-item-title {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .confirmation-box {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #2196F3;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f1f5f8;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-text {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .delete-button {
+    background-color: #EF4444;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #DC2626;
+  }
+  

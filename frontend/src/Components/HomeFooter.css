@@ -1,0 +1,69 @@
+.footer-cover-container {
+    position: relative;
+    overflow: hidden;
+    top:10px;
+    bottom: 0px;
+  }
+  
+  .footer-cover-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+/*topoic*/
+  .footer-Topic {
+    position: absolute;
+    font-family: montserrat;
+    font-size:60px;
+    top: 15%;
+    right: 5%;
+    z-index: 3;
+    color: black; 
+    font-weight: bold; 
+    text-align: right; 
+    line-height: 5px ;
+  }
+
+  .first_line_Topic{
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+/*paragraph*/
+    .footer-paragraph{
+        position: absolute;
+        font-family: montserrat;
+        font-size:25px;
+        top: 28%;
+        right: 5%;
+        z-index: 3;
+        color: black; 
+        font-weight: regular; 
+        text-wrap: wrap;
+        text-align: right; 
+        line-height: 10px ;
+        max-width: 500px;
+    }
+
+  .footer-button{
+    position: absolute;
+    top: 44%; 
+    right: 0%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .btn-dark {
+    color: #fff;
+    background-color: black;
+    min-height: 40px;
+    min-width: 150px;
+    font-weight: bolder;
+    font-family: montserrat;
+    font-size: 20px;
+    border-color: #343a40;
+    border-radius: 100px;
+}
+  
