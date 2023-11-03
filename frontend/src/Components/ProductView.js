@@ -240,7 +240,7 @@ export default function ProductView()  {
         <div class="card">
           <div class="card-body">
             <h3 class="ProductPath">
-              Home > Products > {product.name} > {product.description}
+              Home {">"} Products {">"} {product.name} {">"} {product.description}
             </h3>
             <div class="row">
               <div class="col-lg-4 mr-9 ml-12 col-md-5 col-sm-6">
