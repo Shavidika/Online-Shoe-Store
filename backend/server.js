@@ -30,5 +30,9 @@ const productRouter = require("./Routes/Products.js");
 app.use("/product", productRouter);
 
 app.listen(PORT, () => {
+<<<<<<< HEAD
   console.log(`Server is up and running on port number : ${PORT}`);
+=======
+  console.log(`Server is up and running on port number: ${PORT}`);
+>>>>>>> de3c69b08afb272db9ccc0d283074345cdba9185
 }); 
