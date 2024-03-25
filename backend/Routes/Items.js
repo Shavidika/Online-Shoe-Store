@@ -101,6 +101,7 @@ router.post('/new', async (req, res) => {
     })
 })
 
+module.exports = router;
 //for the Product
 // router.post('/products', async (req, res) => {
 //     try {
@@ -132,5 +133,3 @@ router.post('/new', async (req, res) => {
 
 
 
-
-module.exports = router;
